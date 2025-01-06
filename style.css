@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(9, 26, 51);
+    background-color: #003366;
+
 }
 
 @font-face {
@@ -14,12 +15,13 @@
     font-family: Popins;
     text-align: center;
     font-size: 2rem;
-    color: aliceblue;
+    color: #FFFFFF;
 }
 h1 {
     text-align: center;
     font-size: 4rem;
-    color: aliceblue;
+    color: #FFFFFF;
+    font-style: italic;
 }
 ol { margin: 0;
     padding: 0;
@@ -28,15 +30,29 @@ ol { margin: 0;
     text-align: center;
     font-size: 2rem;
     font-weight: 100;
-    color: aliceblue;
+    color: #FFFFFF;
     cursor: pointer;
     
 }
-.li-1:hover {
-    color: aqua;
+li:hover {
+    color: #00ffff;
 }
-.li-2:focus {
-    border-color: #4D90FE;
-    box-shadow: 0 0 8px rgba(77, 144, 254, 0.6);
-    border: 1px solid black;
-  }
+.para-2 {
+    font-family: Popins;
+    text-align: center;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-style: italic;
+
+}
+.box {
+    border: 3px solid black;
+    display: inline-block;
+    text-align: center;
+    
+}
+.box:focus {
+    outline: 2px solid #40E0D0; /* Turquoise outline when focused */
+    background-color: #003366;   /* Keep dark blue as background */
+    color: #FFFFFF;   
+}
