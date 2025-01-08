@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #abb9c7;
+    background-color: #1e466d;
 
 }
 
@@ -46,8 +46,29 @@ li:hover {
 
 }
 #text-1 {
-    text-align: start;
+    text-align: center;
     height: 100px;
     width: 200px;
+  background-color: #09212b;
+  border: 2px solid #ff0000;
+
+}
+
+#text-1:focus {
+    color: #000000;
+   background-color: #93bce2;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.link:hover {
+    color: #d1691f;
+}
+.link:active {
+    color: #00ffff;
     
 }
